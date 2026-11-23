@@ -1,0 +1,21 @@
+name: Build native CarPlay module
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["CarPlay/**", "scripts/**", ".github/workflows/build.yml"]
+permissions:
+  contents: read
+jobs:
+  module:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile module without app input or signing credentials
+        run: python3 scripts/build_carplay.py --compile-only
+      - name: Audit repository and compiled module
+        run: python3 scripts/audit_release.py . --artifact build/YouTubeCarPlay.dylib
+      - uses: actions/upload-artifact@v4
+        with:
+          name: YouTubeCarPlay-module-unsigned
+          path: build/YouTubeCarPlay.dylib
