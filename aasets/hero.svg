@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="840" viewBox="0 0 1600 840" role="img" aria-labelledby="title desc">
+<title id="title">YouTube Car — Native YouTube for Apple CarPlay</title>
+<desc id="desc">Original project illustration showing a responsive native video player and right-hand video queue. Not a head-unit screenshot.</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0c0d10"/><stop offset="1" stop-color="#19191e"/></linearGradient>
+<linearGradient id="video" x2="1" y2="1"><stop stop-color="#c74639"/><stop offset=".5" stop-color="#752820"/><stop offset="1" stop-color="#151b2b"/></linearGradient>
+<linearGradient id="glass" x2="0" y2="1"><stop stop-color="#ffffff" stop-opacity=".13"/><stop offset="1" stop-color="#ffffff" stop-opacity=".04"/></linearGradient>
+</defs>
+<rect width="1600" height="840" rx="0" fill="url(#bg)"/>
+<circle cx="1450" cy="160" r="290" fill="#f03" opacity=".045"/>
+<text x="96" y="102" fill="#a0a3ae" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif" font-size="20" letter-spacing="4">YOUTUBE CAR · NATIVE CARPLAY INTEGRATION</text>
+<text x="92" y="190" fill="#fff" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif" font-weight="700" font-size="70" letter-spacing="-3">YouTube, native.</text>
+<text x="92" y="268" fill="#fff" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif" font-weight="700" font-size="70" letter-spacing="-3">Now on CarPlay.</text>
+<text x="96" y="318" fill="#b3b5bf" font-family="-apple-system,BlinkMacSystemFont,Arial,sans-serif" font-size="24">Responsive browsing. On-screen search. Your native player.</text>
+<rect x="94" y="372" width="1412" height="374" rx="35" fill="#08090b" stroke="#3a3b41" stroke-width="2"/>
+<rect x="107" y="386" width="58" height="345" rx="24" fill="url(#glass)" stroke="#45464e"/>
+<text x="119" y="416" fill="#fff" font-family="Arial,sans-serif" font-size="15" font-weight="700">10:00</text>
+<rect x="121" y="510" width="30" height="30" rx="9" fill="#52c5ef"/>
+<rect x="121" y="553" width="30" height="30" rx="9" fill="#39c874"/>
+<rect x="121" y="596" width="30" height="30" rx="9" fill="#fff"/>
+<rect x="127" y="604" width="18" height="14" rx="4" fill="#f03"/><path d="m134 607 6 4-6 4z" fill="#fff"/>
+<g fill="#ddd"><rect x="126" y="690" width="7" height="7" rx="1"/><rect x="137" y="690" width="7" height="7" rx="1"/><rect x="126" y="701" width="7" height="7" rx="1"/><rect x="137" y="701" width="7" height="7" rx="1"/></g>
+<rect x="183" y="391" width="902" height="256" rx="18" fill="url(#video)"/>
+<path d="M183 604 390 455 616 582 830 445 1085 647H183z" fill="#ffffff" opacity=".055"/>
+<circle cx="634" cy="519" r="32" fill="#000" opacity=".32"/><path d="m625 501 27 18-27 18z" fill="#fff"/>
+<rect x="183" y="643" width="342" height="4" fill="#f03"/>
+<text x="190" y="680" fill="#fff" font-family="Arial,sans-serif" font-weight="700" font-size="22">The native player. A layout that fits.</text>
+<text x="190" y="710" fill="#989ba8" font-family="Arial,sans-serif" font-size="17">Original interface · Native playback · Responsive canvas</text>
+<rect x="1104" y="391" width="382" height="338" rx="18" fill="#141519"/>
+<text x="1125" y="426" fill="#fff" font-family="Arial,sans-serif" font-weight="700" font-size="21">Up next</text>
+<g font-family="Arial,sans-serif"><rect x="1125" y="449" width="120" height="69" rx="9" fill="#354658"/><text x="1261" y="475" fill="#eee" font-size="18">Your video queue</text><text x="1261" y="501" fill="#999caa" font-size="15">Native recommendations</text>
+<rect x="1125" y="537" width="120" height="69" rx="9" fill="#585045"/><text x="1261" y="563" fill="#eee" font-size="18">Mixes beside video</text><text x="1261" y="589" fill="#999caa" font-size="15">More room to browse</text>
+<rect x="1125" y="625" width="120" height="69" rx="9" fill="#4f384d"/><text x="1261" y="651" fill="#eee" font-size="18">Small or wide display</text><text x="1261" y="677" fill="#999caa" font-size="15">Scaled to the viewport</text></g>
+<text x="96" y="794" fill="#777b88" font-family="Arial,sans-serif" font-size="16">EXPERIMENTAL COMMUNITY PROJECT · SOURCE + BUILD GUIDE · INTERFACE ILLUSTRATION</text>
+<text x="1506" y="794" text-anchor="end" fill="#ddd" font-family="Arial,sans-serif" font-size="16">github.com/sa4hnd/YouTube-Car</text>
+</svg>
